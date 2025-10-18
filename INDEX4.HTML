@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sodhi Family | Official Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    /* Navbar */
+    nav {
+      background: linear-gradient(90deg, #4a90e2, #50c9ce);
+      padding: 14px 30px;
+      display: flex;
+      justify-content: center;
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      font-size: 17px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffe082;
+      transform: scale(1.05);
+    }
+
+    /* Grid Layout */
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+      grid-template-columns: 1fr 3fr;
+      gap: 15px;
+      padding: 20px;
+      background-color: #f8f8f8;
+      max-width: 1100px;
+      margin: 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .container>div {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      grid-area: header;
+      text-align: center;
+    }
+
+    .menu {
+      grid-area: menu;
+      background: #f3f7ff;
+    }
+
+    .content {
+      grid-area: content;
+    }
+
+    .footer {
+      grid-area: footer;
+      text-align: center;
+      background: #f7f7f7;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header Image */
+    .header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4a90e2;
+    }
+
+    .header h5 {
+      color: #2e3a59;
+      font-size: 18px;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+    /* Sidebar Links */
+    .menu a {
+      display: block;
+      text-decoration: none;
+      color: #1a73e8;
+      font-weight: 600;
+      margin: 10px 0;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #1565c0;
+    }
+
+    /* Content */
+    .content h3 {
+      color: #4a90e2;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      line-height: 1.6;
+      color: #333;
+      font-size: 15px;
+    }
+
+    /* Footer Images (both look same now) */
+    .footer img {
+      width: 100px;
+      height: 100px;
+      border-radius: 15px;
+      margin-bottom: 10px;
+      border: 3px solid #4a90e2;
+      object-fit: cover;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .footer img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(74, 144, 226, 0.4);
+    }
+
+    .footer p {
+      color: #5a5a5a;
+      font-size: 14px;
+      line-height: 1.5;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        grid-template-areas:
+          "header"
+          "content"
+          "menu"
+          "footer";
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .ho{
+      object-fit: cover;  
+    }
+    .JO{
+        color: blueviolet;
+        text-decoration: underline;
+    }
+    .lo{
+        margin-right: 1%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    
+    <div class="nav-links" id="navLinks">
+      <a href="https://www.sikhiwiki.org/index.php/Sodhi_family_of_Guru_Harsahai">Blog 1</a>
+      <a href="https://sodhifamilyofguruharsahai-dotcom.github.io/Gurudwara/">Blog 2</a>
+      <a href="https://shripothimala.com/">Blog 3 </a>
+    </div>
+  </nav>
+
+  <!-- Grid Layout -->
+  <div class="container">
+    <div class="header">
+      <img src="logo family ..JPG" alt="Family Logo"> <br>  <img src="imgguru.jpeg" alt="Family Logo">  <img src="imgguru2.jpeg" alt="Family Logo">  <img src="imgguru3.jpeg" alt="Family Logo"> <img class="ho" src="imgguru9.jpeg" alt="Family Logo">  <img src="imgguru10.jpeg" alt="family Logo"> 
+    <h1 class="JO"> SODHI HERITAGE </h1>  
+    </div>
+
+    <div class="menu">
+      <a href="https://sodhifamilyofguruharsahai-dotcom.github.io/Gurudwara/">Blog 1</a>
+      <a href="https://www.sikhiwiki.org/index.php/Sodhi_family_of_Guru_Harsahai">Blog 2</a>
+      <a href="https://shripothimala.com/">Blog 3 </a>
+    </div>
+
+    <div class="content">
+      <h3>SODHI HERITAGE</h3>
+      <p>
+        5 Generation from left to right of direct lineage of Shri Guru Ram Das ji.<br> 
+        This is about Sodhi famiy of Guru Har Sahai , the family which belongs from the direct lineage of shri guru Ram das ji 
+        This family continues  the sodhi heritage and they are helding the anual mela at pothimala sahib faridabad every year.
+      </p>
+      <p></p>
+    </div>
+
+    <div class="footer">
+      <img class="lo" src="imgme.jpeg" alt="Footer Image">  <img src="imgme2.jpeg" alt="Footer Image "><br><img src="imgme3.jpeg" alt="Footer Image">
+      <p>
+        It's me Moksh sher sodhi direct 18th descendant of 4th Sikh Guru Shri Guru Ram Das Ji.
+        <h4>GURU ANSH , SODHI BANSH </h4> 
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
